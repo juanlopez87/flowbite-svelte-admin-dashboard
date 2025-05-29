@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Playground } from '$lib';
+	import { Playground } from '$lib';
 </script>
 
 <Playground />

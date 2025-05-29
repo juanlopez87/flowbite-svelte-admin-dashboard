@@ -1,13 +1,8 @@
 {
-  "name": "CreditCard",
-  "type": {
-    "name": "CreditCardProps",
-    "link": "https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L338"
-  },
-  "props": [
-    [
-      "number",
-      ""
-    ]
-  ]
+	"name": "CreditCard",
+	"type": {
+		"name": "CreditCardProps",
+		"link": "https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L338"
+	},
+	"props": [["number", ""]]
 }

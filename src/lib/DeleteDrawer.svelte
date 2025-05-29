@@ -1,15 +1,26 @@
 <script lang="ts">
-  import { Button, CloseButton, Heading } from 'flowbite-svelte';
-  import { ExclamationCircleOutline } from 'flowbite-svelte-icons';
-  import type { DeleteDrawerProps } from './types';
+	import { Button, CloseButton, Heading } from 'flowbite-svelte';
+	import { ExclamationCircleOutline } from 'flowbite-svelte-icons';
+	import type { DeleteDrawerProps } from './types';
 
-  let { hidden = $bindable(true), title = 'Delete item', confirm = 'Are you sure you want to delete this?', yes = "Yes, I'm sure", no = 'No, cancel', headingTag = 'h5', headingClass = 'mb-6 text-sm font-semibold uppercase' }: DeleteDrawerProps = $props();
+	let {
+		hidden = $bindable(true),
+		title = 'Delete item',
+		confirm = 'Are you sure you want to delete this?',
+		yes = "Yes, I'm sure",
+		no = 'No, cancel',
+		headingTag = 'h5',
+		headingClass = 'mb-6 text-sm font-semibold uppercase',
+	}: DeleteDrawerProps = $props();
 </script>
 
 {#if title}
-  <Heading tag={headingTag} class={headingClass}>{title}</Heading>
+	<Heading tag={headingTag} class={headingClass}>{title}</Heading>
 {/if}
-<CloseButton onclick={() => (hidden = true)} class="absolute top-2.5 right-2.5 text-gray-400 hover:text-black dark:text-white" />
+<CloseButton
+	onclick={() => (hidden = true)}
+	class="absolute top-2.5 right-2.5 text-gray-400 hover:text-black dark:text-white"
+/>
 
 <ExclamationCircleOutline class="mt-8 mb-4 h-10 w-10 text-red-600" />
 

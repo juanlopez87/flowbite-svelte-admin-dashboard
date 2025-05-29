@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { DateRangeSelector } from '$lib';
+	import { DateRangeSelector } from '$lib';
 </script>
 
 <DateRangeSelector />

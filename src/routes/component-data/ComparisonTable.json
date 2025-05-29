@@ -1,17 +1,11 @@
 {
-  "name": "ComparisonTable",
-  "type": {
-    "name": "ComparisonTableProps",
-    "link": "https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L403"
-  },
-  "props": [
-    [
-      "columns",
-      ""
-    ],
-    [
-      "rows",
-      ""
-    ]
-  ]
+	"name": "ComparisonTable",
+	"type": {
+		"name": "ComparisonTableProps",
+		"link": "https://github.com/themesberg/flowbite-svelte-admin-dashboard/blob/main/src/lib/types.ts#L403"
+	},
+	"props": [
+		["columns", ""],
+		["rows", ""]
+	]
 }

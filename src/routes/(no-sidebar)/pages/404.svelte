@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { NotFound } from '$lib';
+	import { NotFound } from '$lib';
 </script>
 
 <NotFound />

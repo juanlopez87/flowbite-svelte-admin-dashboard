@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Change } from '$lib';
+	import { Change } from '$lib';
 </script>
 
 <Change value={12.5} since="" class="justify-end font-medium" />
